@@ -1,4 +1,4 @@
-name: eShopOnWeb Build and Test
+name: eShopOnWeb_BLR Build and Test
 
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-BLR
-  LOCATION: westeurope
+  LOCATION: East US
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 361a87a6-887f-44a4-b676-e20c48c7c296
   WEBAPP-NAME: Microsoft.Web
